@@ -40,9 +40,9 @@ public Function onConsume(PlayerConsumeEvent $event, Player $player)
  
  if($item->getLore() == $steak->getLore(){
   $player->$inv->addItem($steak);
-  if($hunger == getMaxHunger){
+  if($hunger == 20){
    $player->sendMessage("§2You have fully replenished your hunger");
   }
  }
 }
-
+    
