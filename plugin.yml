@@ -1,0 +1,11 @@
+name: UnlimitedSteak
+main: usteak\steak
+api: 3.0.0
+author: secretsilver313
+version: 1.0.0
+description: "Unlimited Steak"
+commands:
+  unlisteak:
+     default: op
+     permission: food.use
+     description: gives you the Unlimited steak
