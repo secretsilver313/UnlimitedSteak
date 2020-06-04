@@ -27,7 +27,6 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
   return true;
  }
 }
-}
 
 
 public Function onConsume(PlayerConsumeEvent $event, Player $player)
@@ -47,4 +46,5 @@ public Function onConsume(PlayerConsumeEvent $event, Player $player)
   }
  }
 }
+    }
     
