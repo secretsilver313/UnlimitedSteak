@@ -5,6 +5,7 @@ namespace usteak;
 use pocketmine\Player;
 use pocketmine\event\player\PlayerItemConsumeEvent;
 use pocketmine\event\player\PlayerConsumeEvent;
+use pocketmine\command\CommandSender;
 
 
 
