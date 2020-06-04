@@ -7,7 +7,7 @@ use pocketmine\event\player\PlayerItemConsumeEvent;
 use pocketmine\event\player\PlayerConsumeEvent;
 use pocketmine\command\CommandSender;
 
-
+class steak extends PluginBase{
 
 public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool
  {
@@ -26,6 +26,7 @@ public function onCommand(CommandSender $sender, Command $cmd, string $label, ar
   }
   return true;
  }
+}
 }
 
 
