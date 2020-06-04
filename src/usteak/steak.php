@@ -39,7 +39,7 @@ public Function onConsume(PlayerConsumeEvent $event, Player $player)
  $steak->setCustomName("Unlimited Steak");
  $steak->setLore(["Infinate Steak"]);
  
- if($item->getLore() == $steak->getLore(){
+ if($player->getItemInHand()->getLore() === (["Infinate Steak"])){
   $player->$inv->addItem($steak);
   if($hunger == 20){
    $player->sendMessage("§2You have fully replenished your hunger");
